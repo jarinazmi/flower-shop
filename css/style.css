@@ -1,25 +1,36 @@
-*{
-    margin : 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 
 }
 
-.container{
+.container {
     padding: 0 150px;
 }
 
-.sample-heading{
-    font-weight: 900;
+
+img{
+    max-width: 100%;
 }
-.description{
+
+section {
+    margin-top: 70px;
+}
+
+.sample-heading {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.description {
     color: #7E797A;
     font-size: 14px;
     margin: 20px 0;
 }
 
-.pinky-button{
+.pinky-button {
     padding: 15px 28px;
     border-radius: 6px;
     border: none;
@@ -27,21 +38,22 @@
     color: white;
 }
 
-.pinky-text{
+.pinky-text {
     color: #E45472;
 }
 
-header{
-    background-color : #FCEEF1;
+header {
+    background-color: #FCEEF1;
 }
 
-header .container{
+header .container {
     display: flex;
     height: 100vh;
 
 }
 
-header .container .left-box , header .container .right-box{
+header .container .left-box,
+header .container .right-box {
     width: 50%;
 }
 
@@ -51,20 +63,217 @@ header .container .left-box {
 }
 
 header .container .left-box h1 {
-    font-size:56px;
+    font-size: 56px;
     font-weight: 900;
-    color : #000000
+    color: #000000
 }
 
-header .container .right-box{
+header .container .right-box {
     display: flex;
     justify-content: end;
 }
-header .container .right-box img{
+
+header .container .right-box img {
     height: 100%;
 }
 
+
+
+/* featured flower section start */
+.featured-intro{
+    text-align: center;
+    padding: 20px 280px;
+}
+.tree-part {
+    display: flex;
+    text-align: center;
+}
+
+.tree-part div {
+    flex: 1;
+}
+
+.tree-part  .custom{
+    margin-bottom: 17px;
+}
+.tree-part img {
+    width: 58%;
+}
+.pink-background .custom {
+    background-color: #F2DEE7;
+    padding-top: 40px;
+    width: 90%;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.blue-background .custom{
+    background-color: #D9EFF1;
+    padding-top: 40px;
+    width: 90%;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.green-background .custom{
+    background-color: #E3EBDB;
+    padding-top: 40px;
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+}
+
+.tree-part  a{
+    font-weight: 700;
+    color: black;
+}
+/* shop-performance */
+#shop-performance {
+    padding:30px 150px 0;
+
+}
+#shop-performance .container{
+    display: flex;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+    padding: 40px 0;
+
+}
+#shop-performance .container div{
+    flex: 1;
+}
+#shop-performance .container .custom{
+   text-align: center;
+}
 /* hot deal section start */
-#hot-deal .container{
-    display : flex;
+#hot-deal {
+   background-color: #FEF6F8;
+}
+
+#hot-deal .container {
+    display: flex;
+}
+
+#hot-deal .left-box,
+#hot-deal .right-box {
+    flex: 1;
+}
+
+#hot-deal .left-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hot-deal .right-box {
+    display: flex;
+    justify-content: center;
+}
+
+/* instagram section is started  */
+
+#instagram .instagram-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+#instagram .instagram-intro  .custom {
+    padding: 0 290px;
+}
+.gallery-part {
+    display: flex;
+    height: 288px;
+
+}
+
+.gallery-part div {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.gallery-part img {
+    width: 95%;
+    height: 100%;
+    border-radius: 5px;
+}
+/* client review section */
+#client-review {
+    text-align: center;
+}
+#client-review .review-row{
+    display: flex;
+    gap: 20px;
+}
+#client-review .review{
+    width: 33.33%;
+    text-align: center;
+}
+#client-review .review img{
+    border-radius: 50%;
+    width: 50%;
+    padding-bottom: 18px;
+}
+
+/* latest deal section is started  */
+#latest-deal .container {
+    margin: 0 150px;
+    padding: 100px;
+    border-radius: 10px;
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#latest-deal form {
+    padding-top: 20px;
+}
+
+#latest-deal input[type="email"] {
+    width: 50%;
+    padding: 15px 28px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+/* footer section started */
+footer {
+    background-color: #111010;
+    margin-top: 70px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
+
+footer .sample-heading {
+    color: white;
+}
+
+footer .description {
+    color: #B1B1B1;
+}
+
+footer .copyright {
+    color: #4C4C4C;
+    font-size: 12px;
+    font-weight: bold;
 }
