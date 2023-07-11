@@ -217,6 +217,13 @@ header .container .right-box img {
     display: flex;
     gap: 20px;
 }
+#client-review  .sample-heading{
+    margin-bottom: 18px;
+}
+.client-name{
+    font-weight: 700;
+    font-size: 18px;
+}
 #client-review .review{
     width: 33.33%;
     text-align: center;
